@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
+@font-face {
+	font-family: 'PulsarOriginalRegular';
+	font-display: swap;
+	src: url("../fonts/PulsarOriginalRegular.woff");
+	src: local("O"), url("../fonts/PulsarOriginalRegular.woff") format("woff2"), 
+			url("../fonts/PulsarOriginalRegular.woff") format("truetype"), 
+			url("../fonts/PulsarOriginalRegular.woff") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Aire Exterior Regular';
+	font-display: swap;
+	src: url("../fonts/AireExterior.woff");
+	src: local("O"), url("../fonts/AireExterior.woff") format("woff2"), 
+			url("../fonts/AireExterior.woff") format("truetype"), 
+			url("../fonts/AireExterior.woff") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
