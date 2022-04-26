@@ -1422,7 +1422,7 @@ body {
     line-height: 14px;
     color: #ababab;
     margin-top: 20px;
-
+    margin-left: 10px
     @media (max-width: $breakpoint416) {
       margin-top: 15px;
       margin-left: 20px;
@@ -1502,6 +1502,8 @@ body {
   }
 
   &__label_inner {
+    display: flex;
+    justify-content: flex-start;
     @media (max-width: $breakpoint665) {
       display: flex;
       align-items: center;
@@ -1512,7 +1514,7 @@ body {
 .arrow-left__login {
   position: absolute;
   left: 37.7%;
-  top: 31.7%;
+  top: 34.7%;
   z-index: 10;
 
   @media (max-width: $breakpoint900) {
